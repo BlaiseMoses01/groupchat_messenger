@@ -29,7 +29,7 @@ Alternatively you can download the repo as a zip from the link in the above comm
 ```
 python GroupChatServer.py <PORTNUMBER>
 ```
-replace <PORTNUMBER> with a value, any should work . In my demo, I use "111", just remember the value you choose as you will need it later when launching the client(s). 
+replace PORTNUMBER with a value, any should work . In my demo, I use "111", just remember the value you choose as you will need it later when launching the client(s). 
 
 If you completed this step correctly , the console should display "waiting for a clients..."
 
@@ -38,9 +38,9 @@ If you completed this step correctly , the console should display "waiting for a
 ```
 python GroupChatClient.py <SERVERNAME> <SERVERPORT>
 ```
-<SERVERNAME> should be "localhost" unless you renamed, and <SERVERPORT> is whatver value you used for <PORTNUMBER> while completing step 2
+SERVERNAME should be "localhost" unless you renamed, and SERVERPORT is whatver value you used for PORTNUMBER while completing step 2
 
-If done correctly , the client window should display "Connected to Server at ( <SERVERNAME>, <SERVERPORT>).
+If done correctly , the client window should display "Connected to Server at ( SERVERNAME, SERVERPORT).
 
 * Step 4: Repeat step 3 for as many clients as you wish to connect to the server, each will need its own terminal window.
 
